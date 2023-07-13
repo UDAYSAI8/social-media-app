@@ -1,0 +1,27 @@
+.HomePage{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+  }
+  
+  .HomePage-child{
+    height: 500px;
+  }
+  
+  #mid{
+  
+    width:55%;
+    height: 100%;
+  }
+  
+  #left{
+    background-color: blue;
+    top: 20px;
+    position: sticky;
+    width: 30%;
+  }
+  .Post{
+    padding-left: 20px;
+  }
+  
+  

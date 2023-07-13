@@ -12,9 +12,9 @@ const postSchema = new Schema({
     image:{
         type:String
     },
-    likes:{
-        type:Number,
-    },
+    likes:[{
+        type:String,
+    }],
     comments:[{
         type:String,
     }]

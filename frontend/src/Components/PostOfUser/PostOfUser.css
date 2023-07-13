@@ -1,0 +1,29 @@
+
+
+.prof-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.prof_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.prof_name{
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+/*css for comment box*/
+.comment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10%;
+}
